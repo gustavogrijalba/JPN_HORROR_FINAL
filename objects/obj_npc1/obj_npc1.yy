@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_temp_player",
-    "path":"sprites/spr_temp_player/spr_temp_player.yy",
+    "name":"spr_test1",
+    "path":"sprites/spr_test1/spr_test1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
