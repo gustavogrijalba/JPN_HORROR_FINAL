@@ -4,7 +4,7 @@ current_char = 0;
 draw_message = "";
 
 //speed for the drawing of the dialog box
-char_speed = 0.5;
+char_speed = 0.8;
 input_key = vk_space;
 
 gui_w = display_get_gui_width();

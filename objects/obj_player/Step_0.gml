@@ -1,12 +1,14 @@
+if (instance_exists(obj_dialog)) exit;
 //basic dialog test (will be commented out and cemented later)
-if (keyboard_check_pressed(vk_space)) {
+
+/* if (keyboard_check_pressed(vk_space)) {
     create_dialog([
     {
     name: "Zhenzhen",
-    msg: "Hello"
+    msg: "ι υƨɛժ ƭσ ɓɛ α ϝαɾʍɛɾ ђɛɾɛ"
     }
     ])
-}
+} */
 
 //basic movement for the player object
 var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
