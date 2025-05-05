@@ -20,7 +20,7 @@ draw_sprite_ext(npc_sprite, 0, portrait_x, portrait_y, portrait_size / sprite_ge
 var text_x = portrait_x + portrait_size + padding;
 var text_y = box_y + padding;
 
-draw_set_font(Font1);
+draw_set_font(font2);
 draw_text(text_x, text_y, messages[current_message].name);
 
 text_y += 32;
