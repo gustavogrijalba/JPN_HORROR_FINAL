@@ -19,7 +19,7 @@ var move_dir = _hor*_hor + _ver*_ver;
 //animation control (only display animation when walking)
 if (move_dir != 0) {
     // player is moving: use walking sprite and animate
-    sprite_index = spr_animated;
+    sprite_index = spr_player_animated;
     image_speed  = 1;
 } else {
     //if the player is idle, the player will only use frame 0

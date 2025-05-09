@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_jess2",
-    "path":"sprites/spr_jess2/spr_jess2.yy",
+    "name":"spr_player_animated",
+    "path":"sprites/spr_player_animated/spr_player_animated.yy",
   },
   "spriteMaskId":null,
   "visible":true,
