@@ -1,0 +1,1 @@
+audio_stop_sound(audition_title_screen)

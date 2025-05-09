@@ -1,0 +1,1 @@
+audio_play_sound(audition_title_screen,1,true);

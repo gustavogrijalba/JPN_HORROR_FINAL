@@ -25,4 +25,3 @@ if (current_char < string_length(_str)) {
         char_timer = 0;
     }
 }
-
