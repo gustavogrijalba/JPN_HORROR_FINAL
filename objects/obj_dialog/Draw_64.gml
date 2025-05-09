@@ -12,14 +12,14 @@ draw_sprite_stretched(spr_temp_box, 0, box_x, box_y, box_width, box_height);
 
 //draw the npc sprite 
 var target_height = box_height; // full box height, no padding
-var scale = target_height / sprite_get_height(spr_bust);
-var bust_width = sprite_get_width(spr_bust) * scale;
-var bust_height = sprite_get_height(spr_bust) * scale;
+var scale = target_height / sprite_get_height(spr_bust3);
+var bust_width = sprite_get_width(spr_bust3) * scale;
+var bust_height = sprite_get_height(spr_bust3) * scale;
 
 var portrait_x = box_x + padding;
 var portrait_y = box_y + box_height - bust_height; // aligned to bottom of box
 
-draw_sprite_ext(spr_bust, 0, portrait_x, portrait_y, scale, scale, 0, c_white, 1);
+draw_sprite_ext(spr_bust3, 0, portrait_x, portrait_y, scale, scale, 0, c_white, 1);
 
 //draw the text of the character speaking
 var text_x = portrait_x + bust_width + padding + 8;
