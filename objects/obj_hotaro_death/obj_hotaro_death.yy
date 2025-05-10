@@ -1,12 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_house1",
+  "%Name":"obj_hotaro_death",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_house1",
+  "name":"obj_hotaro_death",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_home_test_2",
-    "path":"sprites/spr_home_test_2/spr_home_test_2.yy",
+    "name":"spr_hotaro_death",
+    "path":"sprites/spr_hotaro_death/spr_hotaro_death.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_house1",
+  "%Name":"obj_event_trigger",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_house1",
+  "name":"obj_event_trigger",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_home_test_2",
-    "path":"sprites/spr_home_test_2/spr_home_test_2.yy",
+    "name":"spr_event_trigger",
+    "path":"sprites/spr_event_trigger/spr_event_trigger.yy",
   },
   "spriteMaskId":null,
   "visible":true,

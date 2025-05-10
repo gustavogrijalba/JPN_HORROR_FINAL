@@ -21,7 +21,7 @@ function get_player_name() {
 }
 
 welcome = [
-    { name: "Isao", msg: "Hi, " + get_player_name() + ". My name is Aki."},
+    { name: "Naru", msg: "Hi, " + get_player_name() + ". My name is Aki."},
     { name: "Hotaro", msg: "It's been so long..."},
     { name: "Aki", msg: "You have the kind of face I used to know."}
 ];

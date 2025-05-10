@@ -1,14 +1,17 @@
 if (instance_exists(obj_dialog)) exit;
-//basic dialog test (will be commented out and cemented later)
+    
+//check if the room has started, and display the dialog
+//ensure that it only plays at room1
+if (!global.dialog_shown_room_start && room = Room1) {
+    var intro_dialog = [
+        { name: "Naru", msg: "Where... am I?" },
+        { name: "Naru", msg: "Everything feels... off." }
+    ];
 
-/* if (keyboard_check_pressed(vk_space)) {
-    create_dialog([
-    {
-    name: "Zhenzhen",
-    msg: "ι υƨɛժ ƭσ ɓɛ α ϝαɾʍɛɾ ђɛɾɛ"
-    }
-    ])
-} */
+    create_dialog(intro_dialog);
+    //set true so that it never runs again 
+    global.dialog_shown_room_start = true;
+}
 
 //basic movement for the player object
 //computing the movement direction

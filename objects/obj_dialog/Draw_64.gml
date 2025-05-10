@@ -8,7 +8,7 @@ switch (messages[current_message].name) {
     case "Hotaro":
         bust_sprite = spr_bust3;
         break;
-    case "Isao":
+    case "Naru":
         bust_sprite = spr_bust;
         break;
 }

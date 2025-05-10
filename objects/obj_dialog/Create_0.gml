@@ -14,3 +14,5 @@ gui_h = display_get_gui_height();
 
 //will be used for syncing a sound
 last_char_index = 0;
+
+hotaro_flash_triggered = false;
