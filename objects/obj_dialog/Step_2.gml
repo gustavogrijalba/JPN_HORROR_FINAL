@@ -25,7 +25,7 @@ if (current_char < string_length(_str)) {
             global.notebook_found = true;
         }
         
-        if (global.notebook_found && !hotaro_flash_triggered) {
+        if (global.notebook_found && !hotaro_flash_triggered && messages[0].msg == "It looks like someone's notebook...") {
             show_debug_message("Triggering flash.")
             instance_create_layer(0, 0, "Instances", obj_hotaro_death);
             hotaro_flash_triggered = true;

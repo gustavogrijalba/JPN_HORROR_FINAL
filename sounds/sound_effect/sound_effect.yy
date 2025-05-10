@@ -1,16 +1,16 @@
 {
   "$GMSound":"",
-  "%Name":"audition_title_screen",
+  "%Name":"sound_effect",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "bitRate":64,
-  "compression":1,
+  "bitRate":128,
+  "compression":0,
   "conversionMode":0,
-  "duration":0.0,
-  "name":"audition_title_screen",
+  "duration":4.806531,
+  "name":"sound_effect",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -18,8 +18,8 @@
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":22050,
-  "soundFile":"audition_title_screen.mp3",
+  "sampleRate":44100,
+  "soundFile":"sound_effect.mp3",
   "type":0,
   "volume":1.0,
 }
