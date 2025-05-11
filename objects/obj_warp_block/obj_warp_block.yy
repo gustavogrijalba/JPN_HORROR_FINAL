@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_house_entrance",
+  "%Name":"obj_warp_block",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_house_entrance",
+  "name":"obj_warp_block",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_transparent",
-    "path":"sprites/spr_transparent/spr_transparent.yy",
+    "name":"spr_event_trigger",
+    "path":"sprites/spr_event_trigger/spr_event_trigger.yy",
   },
   "spriteMaskId":null,
   "visible":true,
