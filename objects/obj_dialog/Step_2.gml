@@ -21,11 +21,11 @@ if (current_char < string_length(_str)) {
     if (current_message >= array_length(messages)) {
         instance_destroy();
         
-        if (!global.notebook_found && messages[0].msg == "It looks like someone's notebook...") {
-            global.notebook_found = true;
+        if (!global.all_notebooks_found && messages[0].msg == "All three pieces... it makes sense now.") {
+            global.all_notebooks_found = true;
         }
         
-        if (global.notebook_found && !hotaro_flash_triggered && messages[0].msg == "It looks like someone's notebook...") {
+        if (global.all_notebooks_found && !hotaro_flash_triggered && messages[0].msg == "All three pieces... it makes sense now.") {
             show_debug_message("Triggering flash.")
             instance_create_layer(0, 0, "Instances", obj_hotaro_death);
             hotaro_flash_triggered = true;

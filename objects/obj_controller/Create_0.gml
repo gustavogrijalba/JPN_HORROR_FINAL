@@ -4,6 +4,14 @@
 
 if (!variable_global_exists("dialog_shown_room_start")) {
     global.dialog_shown_room_start = false;
-    global.notebook_found = false;
-    global.notebook_dialog_finished = false;
+
+    //notebook progression states
+    global.notebook_1_found = false;
+    global.notebook_2_found = false;
+    global.notebook_3_found = false;
+    //show dialog
+    global.all_notebooks_found = false;
+    global.notebook_dialog_unlocked = false; // becomes true only after 
+    //final notebook
 }
+

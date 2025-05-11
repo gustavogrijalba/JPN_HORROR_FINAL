@@ -1,22 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_npc2",
+  "%Name":"obj_notebook1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_npc2",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"dialog","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.hotaro",},
-  ],
+  "name":"obj_notebook1",
+  "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_npc_parent",
-    "path":"objects/obj_npc_parent/obj_npc_parent.yy",
+    "name":"obj_notebook_parent",
+    "path":"objects/obj_notebook_parent/obj_notebook_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -36,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_hotaro",
-    "path":"sprites/spr_hotaro/spr_hotaro.yy",
+    "name":"spr_event_trigger",
+    "path":"sprites/spr_event_trigger/spr_event_trigger.yy",
   },
   "spriteMaskId":null,
   "visible":true,

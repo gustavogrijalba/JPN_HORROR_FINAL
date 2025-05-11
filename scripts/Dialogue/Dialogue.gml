@@ -26,3 +26,13 @@ welcome = [
     { name: "Aki", msg: "You have the kind of face I used to know."}
 ];
 
+hotaro = [
+    { name: "Naru", msg: "Hi there.. I was wonderi..."},
+    { name: "Hotaro", msg: "Uhm.. Uhm.."},
+    { name: "Hotaro", msg: "Uhm....."},
+    { name: "Naru", msg: "Sorry, are you okay..?"},
+    { name: "Naru", msg: "Sorry I've just been lost here, I'm trying to fi- "},
+    { name: "Hotaro", msg: "LEAVE ME ALONE"}
+    
+]
+
