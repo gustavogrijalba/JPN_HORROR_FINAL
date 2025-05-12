@@ -15,3 +15,7 @@ if (!variable_global_exists("dialog_shown_room_start")) {
     //final notebook
 }
 
+if (!variable_global_exists("hotaro_in_test_room")) {
+    global.hotaro_in_test_room = false;
+}
+

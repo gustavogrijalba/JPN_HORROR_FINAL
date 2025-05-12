@@ -14,7 +14,7 @@ if (!moving) {
 } else {
     // at this point, obj_dialog no longer exists
     //meaning the npc can now start walking
-    if (!instance_exists(obj_dialog)) {
+    if (!instance_exists(obj_dialog) && room == Room1) {
         //walking logic
         var dx = sign(target_x - x);
         var dy = sign(target_y - y);
@@ -26,8 +26,13 @@ if (!moving) {
         //stop if reached 
         if (x == target_x && y == target_y) {
             moving = false;
+            global.hotaro_in_test_room = true;
             instance_destroy()
         }
     }
 }
 
+//disappear once all notebooks are found
+if (global.all_notebooks_found) {
+    instance_destroy();
+}

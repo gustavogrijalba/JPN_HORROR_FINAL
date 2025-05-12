@@ -33,6 +33,14 @@ hotaro = [
     { name: "Naru", msg: "Sorry, are you okay..?"},
     { name: "Naru", msg: "Sorry I've just been lost here, I'm trying to fi- "},
     { name: "Hotaro", msg: "LEAVE ME ALONE"}
-    
+]
+
+hotaro_room = [
+    { name: "Naru", msg: "Sorry for coming in... are you alright...? Why did you just run away like that...?"},
+    { name: "Naru", msg: "I was just wandering through the woods and just... ended up here. I dont even remember arrving here"},
+    { name: "Naru", msg: "It just got dark all of a sudden... Do you know how I can get back? My family must be worried for me"},
+    { name: "Hotaro", msg: "......"},
+    { name: "Hotaro", msg: ".............."},
+    { name: "Hotaro", msg: "They won't have to worry about you anymore...."}
 ]
 
