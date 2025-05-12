@@ -1,4 +1,6 @@
 if (instance_exists(obj_dialog)) exit;
+//draw hotaro under tiles that are trees and such
+depth = -y;
 
 //when idle, check for the player to see if dialog can be initiated 
 if (!moving) {

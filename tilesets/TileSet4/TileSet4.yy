@@ -8,7 +8,7 @@
     "TileSerialiseData":[],
   },
   "name":"TileSet4",
-  "out_columns":27,
+  "out_columns":32,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"final_tileset",
-    "path":"sprites/final_tileset/final_tileset.yy",
+    "name":"bw_interior",
+    "path":"sprites/bw_interior/bw_interior.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -34,5 +34,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":756,
+  "tile_count":1024,
 }

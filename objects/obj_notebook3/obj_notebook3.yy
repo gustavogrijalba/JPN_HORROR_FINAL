@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_event_trigger",
-    "path":"sprites/spr_event_trigger/spr_event_trigger.yy",
+    "name":"spr_page",
+    "path":"sprites/spr_page/spr_page.yy",
   },
   "spriteMaskId":null,
   "visible":true,

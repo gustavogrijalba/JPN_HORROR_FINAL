@@ -12,4 +12,3 @@ trigger_dialog = false;
 if (room == test_room) {
     dialog = global.hotaro_room
 }
-

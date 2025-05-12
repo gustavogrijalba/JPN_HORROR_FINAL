@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_event_trigger",
-    "path":"sprites/spr_event_trigger/spr_event_trigger.yy",
+    "name":"spr_shadow",
+    "path":"sprites/spr_shadow/spr_shadow.yy",
   },
   "spriteMaskId":null,
   "visible":true,

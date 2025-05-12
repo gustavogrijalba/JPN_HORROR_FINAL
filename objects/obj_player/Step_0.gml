@@ -38,7 +38,7 @@ if (move_dir != 0) {
 }
 //movement for the player to collide with our tilemap that holds 
 //all our obstacles
-move_and_collide(dx, dy, tilemap);
+move_and_collide(dx, dy, collision_tilemap);
 //add a manual check to also collide with npcs
 if (place_meeting(x, y, obj_npc_parent)) {
     x -= dx;
