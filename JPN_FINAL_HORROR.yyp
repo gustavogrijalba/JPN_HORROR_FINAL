@@ -91,9 +91,9 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"test_room","path":"rooms/test_room/test_room.yy",},},
     {"roomId":{"name":"intro_room","path":"rooms/intro_room/intro_room.yy",},},
     {"roomId":{"name":"video_room","path":"rooms/video_room/video_room.yy",},},
+    {"roomId":{"name":"test_room","path":"rooms/test_room/test_room.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

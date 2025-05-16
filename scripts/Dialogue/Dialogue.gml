@@ -21,9 +21,23 @@ function get_player_name() {
 }
 
 welcome = [
-    { name: "Naru", msg: "Hi, " + get_player_name() + ". My name is Aki."},
-    { name: "Hotaro", msg: "It's been so long..."},
-    { name: "Aki", msg: "You have the kind of face I used to know."}
+    { name: "Naru", msg: "Hi.... My name is Naru. Do you know where I am?"},
+    { name: "Naru", msg: "It's just... I've gotten lost here and I don't seem to know where I am."},
+    { name: "Aki", msg: "You have the kind of face I used to know....."},
+    { name: "Naru", msg: "......."},
+    { name: "Aki", msg: "This is the village of Sagu.... though that's really all you need to know."},
+    { name: "Aki", msg: "This village used to be a hub of farmers and craftsmen... families... "},
+    { name: "Aki", msg: "Though.... the village just went quiet one day"},
+    { name: "Naru", msg: ".........."},
+    { name: "Aki", msg: "The air got thicker.... the soil soured and lost its color.... noise of families into whispers... and then into nothing."},
+    { name: "Aki", msg: "It's as if nobody was really here at all...  "},
+    { name: "Naru", msg: "...."},
+    { name: "Aki", msg: "But Sagu's still here... what's left of it anyway."},
+    { name: "Aki", msg: "Anyway... you can come follow me into my home if you need help finding your way."},
+    { name: "Aki", msg: "I have something you might need."},
+    { name: "Aki", msg: "And please, don't pay Hotaro any mind.... he isn't of this world.."},
+    { name: "Naru", msg: "Okay....."},
+    { name: "Naru", msg: "Thank you..."}
 ];
 
 hotaro = [
@@ -41,6 +55,9 @@ hotaro_room = [
     { name: "Naru", msg: "It just got dark all of a sudden... Do you know how I can get back? My family must be worried for me"},
     { name: "Hotaro", msg: "......"},
     { name: "Hotaro", msg: ".............."},
-    { name: "Hotaro", msg: "They won't have to worry about you anymore...."}
+    { name: "Hotaro", msg: "They won't have to worry about you anymore...."},
+    { name: "Naru", msg: "Excuse me?"},
+    { name: "Hotaro", msg: "......."},
+    { name: "Hotaro", msg: "Sagu is a "}
 ]
 
