@@ -1,20 +1,29 @@
 // select the appropriate bust sprite based on the speaker's name
 var bust_sprite;
+//select the appropaite text color based on certain cases
+//the default will be white
+var text_color = c_white;
 
 switch (messages[current_message].name) {
     case "Aki":
         bust_sprite = spr_bust2;
+        text_color = c_white
         break;
     case "Hotaro":
         bust_sprite = spr_bust3;
+        text_color = c_white
         break;
     case "Naru":
         bust_sprite = spr_bust;
+        text_color = c_white
         break;
     case "- - A K I - -":
         bust_sprite = spr_aki_distort
+        text_color = c_black
 }
 
+//use this color for the dialog
+draw_set_color(text_color);
 //layout for the dialog box (mimicking stardew valley box)
 var margin = 32;
 var padding = 16;
