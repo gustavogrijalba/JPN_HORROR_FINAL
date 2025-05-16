@@ -29,6 +29,28 @@ if (move_dir != 0) {
     image_speed = 0;                     // halt animation
     image_index = 0;                     // show frame #0 only
 }
+//checking to play our snd_grass step while the player mvoes (ONLY IN ROOM1)
+if (move_dir != 0 && room == Room1) {
+    footstep_cooldown_grass -= 1;
+    if (footstep_cooldown_grass <= 0) {
+        audio_play_sound(snd_grass_step, 0, false);
+        footstep_cooldown_grass = room_speed / 4;
+    }
+} else {
+    footstep_cooldown_grass = 0;
+}
+
+if (move_dir != 0 && (room == test_room || room == aki_room)) {
+    footstep_cooldown_wood -= 1;
+    if (footstep_cooldown_wood <= 0) {
+        audio_play_sound(snd_wood_step, 0, false);
+        footstep_cooldown_wood = room_speed / 4;
+    }
+} else {
+    footstep_cooldown_wood = 0;
+}
+
+
 
 //this is ensuring the player does not move faster in a diagno
 var dx = 0, dy = 0;
@@ -39,6 +61,7 @@ if (move_dir != 0) {
 //movement for the player to collide with our tilemap that holds 
 //all our obstacles
 move_and_collide(dx, dy, collision_tilemap);
+
 //add a manual check to also collide with npcs
 if (place_meeting(x, y, obj_npc_parent)) {
     x -= dx;

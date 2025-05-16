@@ -58,7 +58,18 @@ hotaro_room = [
     { name: "Hotaro", msg: "They won't have to worry about you anymore...."},
     { name: "Naru", msg: "Excuse me?"},
     { name: "Hotaro", msg: "......."},
-    { name: "Hotaro", msg: "Sagu is a "}
+    { name: "Hotaro", msg: "Sagu is a place that CONSUMES people... I've seen it... they didn't believe me..... Sagu isn't a real place.... it's purgatory... hell... it's not real... it's not real"}, 
+    { name: "Hotaro", msg: "They called me crazy.... they didn't understand....."},
+    { name: "Hotaro", msg: "Maybe they aren't people either......."},
+    { name: "Naru", msg: "Hotaro? Are you okay....?"},
+    { name: "Hotaro", msg: "......."},
+    { name: "Hotaro", msg: "Don't trust that demon Aki...... has she gotten you yet?? I can see your eyes...."},
+    { name: "Hotaro", msg: "YOU'VE SEEN HER HAVEN'T YOU??"},
+    { name: "Hotaro", msg: "YOU'LL BE JUST LIKE THEM.... CONSUMED BY SHADOWS... THEY WON'T TELL YOU THE TRUTH"},
+    { name: "Hotaro", msg: "My notebooks... they're scattered... they took them from me... hid them... but they're still out there... waiting..."},
+    { name: "Hotaro", msg: "I wrote it down... before I... tried to leave."},
+    { name: "Hotaro", msg: "If you want to see Sagu for what it is... find them..."},
+    { name: "Hotaro", msg: "Leave now and look for them.... find the truth... or don't.... it's the same outcome anyway...."}
 ]
 
 aki_room_dialog = [

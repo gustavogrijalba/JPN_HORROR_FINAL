@@ -17,16 +17,16 @@ if (place_meeting(x, y, obj_player)) {
     if (global.notebook_dialog_unlocked) {
         var full_dialog = [
             { name: "Naru", msg: "All three pieces... it makes sense now." },
-            { name: "Naru", msg: "It looks like Hotaro's daily thoughts..." },
+            { name: "Naru", msg: "It looks like Hotaro's daily thoughts... or what's left of them" },
             { name: "Naru", msg: "The pages are torn, but I can still make out some of it." },
-            { name: "Hotaro", msg: "I watched them pass my window again today." },
-            { name: "Hotaro", msg: "The way they laughed... like nothing could ever reach them." },
-            { name: "Hotaro", msg: "I imagined pressing a knife to the back of their neck, just to see if they'd stop." },
-            { name: "Hotaro", msg: "They wouldn't laugh anymore." },
-            { name: "Hotaro", msg: "Maybe then they'd understand what it means to be alone." },
-            { name: "Hotaro", msg: "I think I'm becoming something else." },
-            { name: "Hotaro", msg: "Something that waits between the walls." },
-            { name: "Hotaro", msg: "When I hang, I want my shadow to face the door." }
+            { name: "Hotaro", msg: "I watched them pass my window again today....." },
+            { name: "Hotaro", msg: "Their shadows blending in with the wretchedness of Sagu's air... their empty faces pretending to smile... " },
+            { name: "Hotaro", msg: "I know they don't feel anything.... they keep itching closer and closer to me... taunting me.... they aren't people... they're demons" },
+            { name: "Hotaro", msg: "Aki has been isnide my walls again..... I know it...." },
+            { name: "Hotaro", msg: "She laughs as I lose my bits of sanity..... her face sometimes appearing on the wall.... no longer hiding her wretched visage... she knows she has me trapped" },
+            { name: "Hotaro", msg: "I see the static behind here eyes... where light doesn't reflect... empty holes of pich black darknes.... " },
+            { name: "Hotaro", msg: "She thinks she can keep me trapped for longer.... these people think they can infect me and strip me of my humanity..... they're wrong" },
+            { name: "Hotaro", msg: "I won't let them take me... I don't want to go where they reside.... I know they used Sagu to entrap me here but.... I won't let them....When I hang, I want my shadow to face the door.... I want Aki to see...." }
         ];
         create_dialog(full_dialog);
 
