@@ -61,3 +61,17 @@ hotaro_room = [
     { name: "Hotaro", msg: "Sagu is a "}
 ]
 
+aki_room_dialog = [
+    { name: "Aki", msg: "Make yourself at home " + get_player_name() + "...."},
+    { name: "Aki", msg: "Excuse me... I mean Naru, please, it's been some time since I've last seen a guest"},
+    { name: "Aki", msg: "Quite honestly, if Sagu still inhabited anyone... maybe you'd be the talk of the village..."},
+    { name: "Aki", msg: "But... it doesn't, does it...."},
+    { name: "Naru", msg: "I'm not entirely sure what you mean..."},
+    { name: "Aki", msg: "No, though I am sure Sagu is happy to have you here..."},
+    { name: "Aki", msg: "You know, when Sagu still had a population, people would often visit here to look upon my famous looking glass..... they said it would always show a reflection of my beauty..."},
+    { name: "Aki", msg: "Isn't that wonderful... even if you look upon it yourself you would see not your own reflection but a reflection of my own beauty...my own soul..."},
+    { name: "Aki", msg: "Go on Naru, take a look for yourself.... I'd like you to see my beauty...."},
+    { name: "Naru", msg: "Sorry, but how would this help me...?"},
+    { name: "Aki", msg: "Oh Naru... It's polite to look, Naru... especially when your host invites you."}
+]
+

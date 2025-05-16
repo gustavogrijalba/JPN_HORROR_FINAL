@@ -9,4 +9,6 @@ target_y = 220;
 collision_tiles = layer_tilemap_get_id("tiles_col")
 trigger_dialog = false;
 
-
+if (room == aki_room) {
+    dialog = global.aki_room_dialog
+}
