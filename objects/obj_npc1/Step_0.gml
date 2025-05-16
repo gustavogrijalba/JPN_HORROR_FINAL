@@ -1,7 +1,5 @@
 if (global.mirror_scare_occured) {
     dialog = global.post_mirror_dialog;
-} else {
-    dialog = global.aki_room_dialog;
 }
 
 //force refresh

@@ -27,6 +27,7 @@
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"intro_vid.mp4","CopyToMask":-1,"filePath":"datafiles","name":"intro_vid.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"output2 copy.mp4","CopyToMask":-1,"filePath":"datafiles","name":"output2 copy.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"output2.mp4","CopyToMask":-1,"filePath":"datafiles","name":"output2.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
@@ -65,6 +66,7 @@
     {"id":{"name":"video_room","path":"rooms/video_room/video_room.yy",},},
     {"id":{"name":"Dialogue","path":"scripts/Dialogue/Dialogue.yy",},},
     {"id":{"name":"audition_title_screen","path":"sounds/audition_title_screen/audition_title_screen.yy",},},
+    {"id":{"name":"snd_mirror","path":"sounds/snd_mirror/snd_mirror.yy",},},
     {"id":{"name":"sound_effect","path":"sounds/sound_effect/sound_effect.yy",},},
     {"id":{"name":"text","path":"sounds/text/text.yy",},},
     {"id":{"name":"bw_interior","path":"sprites/bw_interior/bw_interior.yy",},},

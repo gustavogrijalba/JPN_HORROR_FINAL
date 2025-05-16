@@ -27,3 +27,7 @@ if (!variable_global_exists("mirror_scare_occured")) {
 if (!variable_global_exists("refresh_aki_dialog")) {
     global.refresh_aki_dialog = false;
 }
+
+if (!variable_global_exists("death_sequence_started")) {
+    global.death_sequence_started = false;
+}
