@@ -31,3 +31,7 @@ if (!variable_global_exists("refresh_aki_dialog")) {
 if (!variable_global_exists("death_sequence_started")) {
     global.death_sequence_started = false;
 }
+
+if (!variable_global_exists("video_finished")) {
+    global.video_finished = false;
+}

@@ -12,3 +12,4 @@ global.aki_in_house = false;
 global.mirror_scare_occured = false;
 global.refresh_aki_dialog = false;
 global.death_sequence_started = false;
+global.video_finished = false;
