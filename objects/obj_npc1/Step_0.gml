@@ -1,3 +1,18 @@
+if (global.mirror_scare_occured) {
+    dialog = global.post_mirror_dialog;
+} else {
+    dialog = global.aki_room_dialog;
+}
+
+//force refresh
+if (global.refresh_aki_dialog) {
+    if (distance_to_object(obj_player) < 8) {
+        // auto start dialog without needing key press
+        create_dialog(dialog);
+        global.refresh_aki_dialog = false;
+    }
+}
+
 if (instance_exists(obj_dialog)) exit;
     
 //REUSE HOTARO CODE FOR MOVEMENT 

@@ -19,3 +19,11 @@ if (!variable_global_exists("hotaro_in_test_room")) {
 if (!variable_global_exists("aki_in_house")) {
     global.aki_in_house = false;
 }
+
+if (!variable_global_exists("mirror_scare_occured")) {
+    global.mirror_scare_occured = false;
+}
+
+if (!variable_global_exists("refresh_aki_dialog")) {
+    global.refresh_aki_dialog = false;
+}

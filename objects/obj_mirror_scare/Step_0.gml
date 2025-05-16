@@ -4,6 +4,7 @@ if (state == "fade_in") {
     } else {
         //hold the full image for 2 seconds
         alarm[0] = room_speed * 2;
+        //could use this for later if i implement something else
         state = "hold";
     }
 }

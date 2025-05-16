@@ -75,3 +75,8 @@ aki_room_dialog = [
     { name: "Aki", msg: "Oh Naru... It's polite to look, Naru... especially when your host invites you."}
 ]
 
+post_mirror_dialog = [
+    { name: "- - A K I - -", msg: "LEAVE......"},
+    { name: "- - A K I - -", msg: "......"}
+]
+

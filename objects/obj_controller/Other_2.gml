@@ -9,3 +9,5 @@ global.all_notebooks_found = false;
 global.notebook_dialog_unlocked = false; 
 global.hotaro_in_test_room = false;
 global.aki_in_house = false;
+global.mirror_scare_occured = false;
+global.refresh_aki_dialog = false;

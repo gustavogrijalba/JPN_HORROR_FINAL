@@ -11,6 +11,8 @@ switch (messages[current_message].name) {
     case "Naru":
         bust_sprite = spr_bust;
         break;
+    case "- - A K I - -":
+        bust_sprite = spr_aki_distort
 }
 
 //layout for the dialog box (mimicking stardew valley box)
