@@ -20,13 +20,14 @@ if (!moving) {
         var dx = sign(target_x - x);
         var dy = sign(target_y - y);
 
-        var move_speed = 1; // or use tile size steps
+        var move_speed = 1;
         if (dx != 0) x += dx * move_speed;
         if (dy != 0) y += dy * move_speed;
 
         //stop if reached 
         if (x == target_x && y == target_y) {
             moving = false;
+            global.aki_in_house = true;
             instance_destroy()
         }
     }

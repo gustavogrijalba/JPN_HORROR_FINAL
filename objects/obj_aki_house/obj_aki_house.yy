@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_controller",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_aki_house",
+  "eventList":[],
   "managed":true,
-  "name":"obj_controller",
+  "name":"obj_aki_house",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_aki_house",
+    "path":"sprites/spr_aki_house/spr_aki_house.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
