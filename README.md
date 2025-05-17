@@ -1,4 +1,4 @@
-<img src='sprites/spr_start/4f968a71-01ae-4c82-9b67-ce373a1bbc5d.png'>
+<img src = 'sprites/spr_start/4f968a71-01ae-4c82-9b67-ce373a1bbc5d.png'>
 
 # ***SAGU***
 
