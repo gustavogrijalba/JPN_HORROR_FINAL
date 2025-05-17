@@ -1,4 +1,4 @@
-<img src='sprites/spr_start/4f968a71-01ae-4c82-9b67-ce373a1bbc5d.png' width="300">
+<img src='sprites/spr_start/4f968a71-01ae-4c82-9b67-ce373a1bbc5d.png'>
 
 # ***SAGU***
 
@@ -34,9 +34,7 @@ The game is playable online via **GX.games** at:
 A writeup of the game and a bit on the development process + creative process can be found here: 🔗 [https://docs.google.com/document/d/11MjJmCgeNzaJrsKwdFaz76Mh2Hh2lSDrL8DvBSvhxLM/edit?tab=t.0](https://docs.google.com/document/d/11MjJmCgeNzaJrsKwdFaz76Mh2Hh2lSDrL8DvBSvhxLM/edit?tab=t.0)
 
 ## Walkthrough
-<video width="640" height="360" controls>
-  <source src="datafiles/walkthrough.mp4" type="video/mp4">
-</video>
+Will be posted shortly
 
 ## 👤 Credits
 
