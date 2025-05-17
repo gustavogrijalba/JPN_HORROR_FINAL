@@ -37,6 +37,7 @@ A writeup of the game and a bit on the development process + creative process ca
 <video width="640" height="360" controls>
   <source src="datafiles/walkthrough.mp4" type="video/mp4">
 </video>
+
 ## 👤 Credits
 
 - **Developer**: Gustavo Grijalba Chavez
